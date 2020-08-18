@@ -1,5 +1,10 @@
+body {
+    background: linear-gradient(to right, orange, white, green);
+}
+ 
 #clockContainer {
     position: relative;
+    border-radius: 50%;
     margin: auto;
     height: 40vw;
     width: 40vw;
@@ -9,12 +14,12 @@
 
 #hour, #minute, #second {
     position: absolute;
-    background: black;
     border-radius: 10px;
     transform-origin: bottom;
 }
 
 #hour {
+    background: orange;
     width: 2%;
     height: 25%;
     top: 25.19%;
@@ -23,6 +28,7 @@
 }
 
 #minute {
+    background: blue;
     width: 1.3%;
     height: 30%;
     top: 20.16%;
@@ -31,6 +37,7 @@
 }
 
 #second {
+    background: darkgreen;
     width: 0.8%;
     height: 37%;
     top: 13.22%;
